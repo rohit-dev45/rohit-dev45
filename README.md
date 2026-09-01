@@ -18,31 +18,24 @@
 
 ## About
 
-I pick the data model first.
+I pick the data model first. If the world is rows, I use rows. If the world is a lineage, I use a graph.
 
-If the world is rows, I use rows. If the world is a lineage, I use a graph.
-
-I build in **TypeScript** and **Java**. I care about the shape of the problem more than the stack of the week. Lately that means graphs: teaching chains, shortest paths, neighbourhoods you can actually click.
-
-Open to software engineering roles where the data model is a judgment call, not a tutorial.
+I build in **TypeScript** and **Java** — backends, exam systems, storefronts, and lately graphs. Below is everything I have shipped on this account.
 
 ---
 
-## Featured — Parampara
+## Projects
 
-**A living graph of Indian classical music.** guru · shishya · gharana · raga
+### 1. Parampara — living graph of Indian classical music
+**Now.** Guru, shishya, gharana, raga as a graph — because teaching is an edge, not a column.
 
-CognoDB (openCypher over Bolt). **127 nodes, 244 relationships.** Multi-hop teaching. Shortest path. Force-directed explorer.
+CognoDB (openCypher over Bolt, official Neo4j driver). 127 nodes, 244 relationships. Multi-hop teaching chains, shortest path, force-directed explorer. SQL can list who taught whom. It cannot walk a bloodline.
 
-SQL can list who taught whom. It cannot walk a bloodline.
+`TypeScript` `Neo4j` `Cypher` `SVG`
 
-<div align="center">
+[Live demo](https://parampara-ashy.vercel.app/) · [Source](https://github.com/rohit-dev45/parampara)
 
 [![Parampara](https://parampara-ashy.vercel.app/screenshots/01-explore.jpg)](https://parampara-ashy.vercel.app/)
-
-**[Open the live demo](https://parampara-ashy.vercel.app/)** · **[Source](https://github.com/rohit-dev45/parampara)**
-
-</div>
 
 | Explore | Lineage | Queries |
 | :---: | :---: | :---: |
@@ -50,14 +43,66 @@ SQL can list who taught whom. It cannot walk a bloodline.
 
 ---
 
-## Other work
+### 2. Banking system
+Production-style **Java / Spring Boot** backend for accounts and money movement. Layered architecture (Controller → Service → Repository), DTOs, validation, exception handling, logging. Stateless REST. Built to show I can design an API, not just a tutorial CRUD.
 
-| Project | Stack | What it is |
-| --- | --- | --- |
-| [parampara](https://github.com/rohit-dev45/parampara) | TypeScript, Neo4j, Cypher | Graph of teaching lineages |
-| [banking-system](https://github.com/rohit-dev45/banking-system) | Java | Backend banking flows |
-| [leadmasters-exam-portal](https://github.com/rohit-dev45/leadmasters-exam-portal) | JavaScript | Exam portal |
-| [Employee-management-system](https://github.com/rohit-dev45/Employee-management-system-only-front-end) | JavaScript | Frontend |
+`Java` `Spring Boot` `Hibernate` `MySQL` `Maven` `JUnit`
+
+[github.com/rohit-dev45/banking-system](https://github.com/rohit-dev45/banking-system)
+
+---
+
+### 3. Leadmasters exam portal
+Web exam platform: login, timed MCQs, navigation between questions, submit, instant score. The problem is trust and clock — a student should not lose a session because the UI is sloppy.
+
+`JavaScript` `HTML` `CSS` · auth + timer + results
+
+[github.com/rohit-dev45/leadmasters-exam-portal](https://github.com/rohit-dev45/leadmasters-exam-portal)
+
+---
+
+### 4. Employee management — frontend
+Browser UI for employee records: list, add, update, remove. Frontend-only so the interaction model is visible without standing up a database. Built to prove layout, state, and form flow.
+
+`JavaScript` `HTML` `CSS`
+
+[github.com/rohit-dev45/Employee-management-system-only-front-end](https://github.com/rohit-dev45/Employee-management-system-only-front-end)
+
+---
+
+### 5. Library management
+**Spring Boot** REST API for a library: catalogue books, borrow, return. In-memory store so the domain model and endpoints stay the point. JUnit on the service layer.
+
+`Java` `Spring Boot` `REST` `JUnit`
+
+[github.com/rohit-dev45/library-management](https://github.com/rohit-dev45/library-management)
+
+---
+
+### 6. Amazon clone
+Responsive storefront plus Java backend: browse, search, cart. HTML/CSS/JS on the front, Spring Boot REST behind it. A full vertical slice of an e-commerce loop — not a single page.
+
+`JavaScript` `HTML` `CSS` `Java` `Spring Boot`
+
+[github.com/rohit-dev45/amazon](https://github.com/rohit-dev45/amazon)
+
+---
+
+### 7. Traffic sign detection
+Python computer-vision project: classify traffic signs from images. Built to leave the CRUD lane and touch a model, a dataset, and an evaluation loop.
+
+`Python` `OpenCV` `ML`
+
+[github.com/rohit-dev45/traffic--sign-detection](https://github.com/rohit-dev45/traffic--sign-detection)
+
+---
+
+### Also
+
+| | |
+| --- | --- |
+| [Portfolio](https://rohityadavportfolio.lovable.app/) | Personal site |
+| [amazon-clone](https://github.com/rohit-dev45/amazon-clone) | Stub for the same e-commerce idea — live code is in `amazon` |
 
 ---
 
@@ -65,9 +110,9 @@ SQL can list who taught whom. It cannot walk a bloodline.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,java,react,html,css,nodejs,spring,postgres,git,linux,vscode&perline=12" alt="stack" />
+<img src="https://skillicons.dev/icons?i=ts,js,java,react,html,css,nodejs,spring,postgres,python,git,linux,vscode&perline=13" alt="stack" />
 
-`TypeScript` `Java` `Neo4j` `Cypher` `React` `Spring Boot` `Node.js` `SQL` `Git`
+`TypeScript` `Java` `JavaScript` `Python` `Neo4j` `Cypher` `Spring Boot` `React` `SQL` `Git`
 
 </div>
 
@@ -82,10 +127,6 @@ SQL can list who taught whom. It cannot walk a bloodline.
 
 <div align="center">
 <img src="https://streak-stats.demolab.com?user=rohit-dev45&theme=gruvbox-dark&hide_border=true&background=0c0b0a&ring=c4a574&fire=c4a574&currStreakLabel=f2ebe1" alt="streak" />
-</div>
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=rohit-dev45&theme=gruvbox&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies" />
 </div>
 
 ---
