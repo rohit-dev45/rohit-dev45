@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/rohit-dev45/rohit-dev45/main/profile-banner.svg" alt="Rohit Yadav — agents that call tools" width="100%" />
+<img src="https://assets.grok.com/users/da6641ee-aee1-43f2-bdc9-23bb4a61f1aa/generated/00c48dea-f31d-465f-b424-0c0776cd6c41/image.jpg" alt="Rohit Yadav — agents that call tools" width="100%" />
 
 # Botta Rohit Yadav
 
