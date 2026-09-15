@@ -9,6 +9,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=500&size=22&duration=3500&pause=900&color=F2EBE1&center=true&vCenter=true&width=720&lines=I+pick+the+data+model+first;If+the+student+needs+a+check,+I+use+a+tool;Agents+that+call+tools" alt="typing" />
 
 [![Tutor](https://img.shields.io/badge/AI_Tutor-LangChain_+_MCP-0c0b0a?style=for-the-badge&labelColor=c4a574)](https://github.com/rohit-dev45/programming-tutor-agent)
+[![Demo](https://img.shields.io/badge/Demo-Google_Drive-0c0b0a?style=for-the-badge&labelColor=c4a574)](https://drive.google.com/file/d/1X8HZTsvx9oTEdc2P6xVx4szGgzhltDgM/view?usp=sharing)
 [![Live](https://img.shields.io/badge/Parampara-Live_demo-0c0b0a?style=for-the-badge&labelColor=c4a574)](https://parampara-ashy.vercel.app/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Lovable-0c0b0a?style=for-the-badge&labelColor=9c9388)](https://rohityadavportfolio.lovable.app/)
 [![Mail](https://img.shields.io/badge/Email-rohit.botta5%40gmail.com-0c0b0a?style=for-the-badge&labelColor=6f675e)](mailto:rohit.botta5@gmail.com)
@@ -34,9 +35,9 @@ I build backends and agents in **C# / .NET**, **Python**, **TypeScript**, and **
 
 `Python` `LangChain` `Gemini` `MCP` `LangGraph`
 
-[Source](https://github.com/rohit-dev45/programming-tutor-agent) · [Demo video](https://github.com/rohit-dev45/programming-tutor-agent/blob/main/docs/programming-tutor-agent/docs/demo.mp4)
+[Source](https://github.com/rohit-dev45/programming-tutor-agent) · [Watch demo](https://drive.google.com/file/d/1X8HZTsvx9oTEdc2P6xVx4szGgzhltDgM/view?usp=sharing)
 
-[![MCP Inspector](https://github.com/rohit-dev45/programming-tutor-agent/raw/main/docs/programming-tutor-agent/docs/screenshots/02-mcp-inspector-tools.png)](https://github.com/rohit-dev45/programming-tutor-agent)
+[![MCP Inspector](https://github.com/rohit-dev45/programming-tutor-agent/raw/main/docs/programming-tutor-agent/docs/screenshots/02-mcp-inspector-tools.png)](https://drive.google.com/file/d/1X8HZTsvx9oTEdc2P6xVx4szGgzhltDgM/view?usp=sharing)
 
 | Inspector | Codex tools | Leap year |
 | :---: | :---: | :---: |
@@ -99,6 +100,6 @@ Guru, shishya, gharana, raga as a graph — because teaching is an edge, not a c
 
 <div align="center">
 
-**[programming-tutor-agent](https://github.com/rohit-dev45/programming-tutor-agent)** · **[parampara](https://parampara-ashy.vercel.app/)** · **[portfolio](https://rohityadavportfolio.lovable.app/)** · **[email](mailto:rohit.botta5@gmail.com)**
+**[programming-tutor-agent](https://github.com/rohit-dev45/programming-tutor-agent)** · **[watch demo](https://drive.google.com/file/d/1X8HZTsvx9oTEdc2P6xVx4szGgzhltDgM/view?usp=sharing)** · **[parampara](https://parampara-ashy.vercel.app/)** · **[portfolio](https://rohityadavportfolio.lovable.app/)** · **[email](mailto:rohit.botta5@gmail.com)**
 
 </div>
