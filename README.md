@@ -21,7 +21,7 @@
 
 I pick the data model first. If the world is rows, I use rows. If the world is a lineage, I use a graph.
 
-I build in **TypeScript**, **Python**, and **Java** — backends, agents, exam systems, storefronts, and graphs. Lately that includes a LangChain + Gemini programming tutor that calls MCP tools instead of guessing a prime check.
+I build backends and agents in **C# / .NET**, **Python**, **TypeScript**, and **Java**. Lately that includes a LangChain + Gemini programming tutor that calls MCP tools instead of guessing a prime check, and a Neo4j graph of Indian classical music lineages.
 
 ---
 
@@ -47,7 +47,7 @@ I build in **TypeScript**, **Python**, and **Java** — backends, agents, exam s
 ### 2. Parampara — living graph of Indian classical music
 Guru, shishya, gharana, raga as a graph — because teaching is an edge, not a column.
 
-CognoDB (openCypher over Bolt, official Neo4j driver). 127 nodes, 244 relationships. Multi-hop teaching chains, shortest path, force-directed explorer. SQL can list who taught whom. It cannot walk a bloodline.
+CognoDB (openCypher over Bolt, official Neo4j driver). 127 nodes, 244 relationships. Multi-hop teaching chains, shortest path, force-directed explorer.
 
 `TypeScript` `Neo4j` `Cypher` `SVG`
 
@@ -62,7 +62,7 @@ CognoDB (openCypher over Bolt, official Neo4j driver). 127 nodes, 244 relationsh
 ---
 
 ### 3. Banking system
-Production-style **Java / Spring Boot** backend for accounts and money movement. Layered architecture (Controller → Service → Repository), DTOs, validation, exception handling, logging. Stateless REST. Built to show I can design an API, not just a tutorial CRUD.
+Production-style **Java / Spring Boot** backend for accounts and money movement. Layered architecture (Controller → Service → Repository), DTOs, validation, exception handling, logging.
 
 `Java` `Spring Boot` `Hibernate` `MySQL` `Maven` `JUnit`
 
@@ -71,16 +71,16 @@ Production-style **Java / Spring Boot** backend for accounts and money movement.
 ---
 
 ### 4. Leadmasters exam portal
-Web exam platform: login, timed MCQs, navigation between questions, submit, instant score. The problem is trust and clock — a student should not lose a session because the UI is sloppy.
+Web exam platform: login, timed MCQs, navigation, submit, instant score.
 
-`JavaScript` `HTML` `CSS` · auth + timer + results
+`JavaScript` `HTML` `CSS`
 
 [github.com/rohit-dev45/leadmasters-exam-portal](https://github.com/rohit-dev45/leadmasters-exam-portal)
 
 ---
 
 ### 5. Employee management — frontend
-Browser UI for employee records: list, add, update, remove. Frontend-only so the interaction model is visible without standing up a database. Built to prove layout, state, and form flow.
+Browser UI for employee records: list, add, update, remove.
 
 `JavaScript` `HTML` `CSS`
 
@@ -89,7 +89,7 @@ Browser UI for employee records: list, add, update, remove. Frontend-only so the
 ---
 
 ### 6. Library management
-**Spring Boot** REST API for a library: catalogue books, borrow, return. In-memory store so the domain model and endpoints stay the point. JUnit on the service layer.
+**Spring Boot** REST API: catalogue, borrow, return. JUnit on the service layer.
 
 `Java` `Spring Boot` `REST` `JUnit`
 
@@ -98,7 +98,7 @@ Browser UI for employee records: list, add, update, remove. Frontend-only so the
 ---
 
 ### 7. Amazon clone
-Responsive storefront plus Java backend: browse, search, cart. HTML/CSS/JS on the front, Spring Boot REST behind it. A full vertical slice of an e-commerce loop — not a single page.
+Responsive storefront plus Java backend: browse, search, cart.
 
 `JavaScript` `HTML` `CSS` `Java` `Spring Boot`
 
@@ -107,7 +107,7 @@ Responsive storefront plus Java backend: browse, search, cart. HTML/CSS/JS on th
 ---
 
 ### 8. Traffic sign detection
-Python computer-vision project: classify traffic signs from images. Built to leave the CRUD lane and touch a model, a dataset, and an evaluation loop.
+Python computer-vision project: classify traffic signs from images.
 
 `Python` `OpenCV` `ML`
 
@@ -115,22 +115,31 @@ Python computer-vision project: classify traffic signs from images. Built to lea
 
 ---
 
-### Also
+## Tech stack
 
-| | |
-| --- | --- |
-| [Portfolio](https://rohityadavportfolio.lovable.app/) | Personal site |
-| [amazon-clone](https://github.com/rohit-dev45/amazon-clone) | Stub for the same e-commerce idea — live code is in `amazon` |
+**Languages**
 
----
+`C#` `Python` `TypeScript` `Java` `SQL` `JavaScript`
 
-## Stack
+**AI / agents**
+
+`LangChain` `LangGraph` `MCP` `Gemini` `RAG` `prompt engineering`
+
+**Backend**
+
+`.NET 8` `ASP.NET Core` `EF Core` `JWT` `RBAC` `Spring Boot` `REST` `Swagger`
+
+**Data**
+
+`SQL Server` `PostgreSQL` `MySQL` `Neo4j` `Cypher` `Supabase`
+
+**Cloud / tools**
+
+`AWS` `Git` `Linux` `Docker` `VS Code`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,java,python,react,html,css,nodejs,spring,postgres,git,linux,vscode&perline=13" alt="stack" />
-
-`TypeScript` `Python` `Java` `LangChain` `MCP` `Gemini` `Neo4j` `Cypher` `Spring Boot` `React` `SQL` `Git`
+<img src="https://skillicons.dev/icons?i=cs,dotnet,py,ts,java,js,react,nodejs,spring,postgres,mysql,aws,docker,git,linux,vscode&perline=8" alt="stack" />
 
 </div>
 
@@ -146,6 +155,8 @@ Python computer-vision project: classify traffic signs from images. Built to lea
 <div align="center">
 <img src="https://streak-stats.demolab.com?user=rohit-dev45&theme=gruvbox-dark&hide_border=true&background=0c0b0a&ring=c4a574&fire=c4a574&currStreakLabel=f2ebe1" alt="streak" />
 </div>
+
+Private repo work only shows on the graph if you turn on **Private contributions** in [GitHub settings → Profile](https://github.com/settings/profile).
 
 ---
 
