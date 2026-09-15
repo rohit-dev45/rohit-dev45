@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://parampara-ashy.vercel.app/profile-banner.jpg" alt="Rohit Yadav — paths, not rows" width="100%" />
+<img src="https://raw.githubusercontent.com/rohit-dev45/rohit-dev45/main/profile-banner.svg" alt="Rohit Yadav — agents that call tools" width="100%" />
 
 # Botta Rohit Yadav
 
 **B.Tech CSE (IoT)** · Raghu Engineering College · Visakhapatnam
 
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=500&size=22&duration=3500&pause=900&color=F2EBE1&center=true&vCenter=true&width=720&lines=I+pick+the+data+model+first;If+the+world+is+a+lineage,+I+use+a+graph;If+the+student+needs+a+check,+I+use+a+tool" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=500&size=22&duration=3500&pause=900&color=F2EBE1&center=true&vCenter=true&width=720&lines=I+pick+the+data+model+first;If+the+student+needs+a+check,+I+use+a+tool;Agents+that+call+tools" alt="typing" />
 
 [![Tutor](https://img.shields.io/badge/AI_Tutor-LangChain_+_MCP-0c0b0a?style=for-the-badge&labelColor=c4a574)](https://github.com/rohit-dev45/programming-tutor-agent)
 [![Live](https://img.shields.io/badge/Parampara-Live_demo-0c0b0a?style=for-the-badge&labelColor=c4a574)](https://parampara-ashy.vercel.app/)
@@ -19,7 +19,7 @@
 
 ## About
 
-I pick the data model first. If the world is rows, I use rows. If the world is a lineage, I use a graph.
+I pick the data model first. If the world is rows, I use rows. If the world is a lineage, I use a graph. If the student needs a check, I call a tool.
 
 I build backends and agents in **C# / .NET**, **Python**, **TypeScript**, and **Java**. Lately that includes a LangChain + Gemini programming tutor that calls MCP tools instead of guessing a prime check, and a Neo4j graph of Indian classical music lineages.
 
@@ -155,8 +155,6 @@ Python computer-vision project: classify traffic signs from images.
 <div align="center">
 <img src="https://streak-stats.demolab.com?user=rohit-dev45&theme=gruvbox-dark&hide_border=true&background=0c0b0a&ring=c4a574&fire=c4a574&currStreakLabel=f2ebe1" alt="streak" />
 </div>
-
-Private repo work only shows on the graph if you turn on **Private contributions** in [GitHub settings → Profile](https://github.com/settings/profile).
 
 ---
 
