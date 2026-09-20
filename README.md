@@ -1,105 +1,119 @@
 <div align="center">
 
-<img src="./profile-banner.jpg" alt="Rohit Yadav — agents that call tools" width="100%" />
+<img src="./profile-banner.jpg" alt="Botta Rohit Yadav" width="100%" />
 
 # Botta Rohit Yadav
 
-**B.Tech CSE (IoT)** · Raghu Engineering College · Visakhapatnam
+**Backend & GenAI Engineer** · Python · .NET · Agents · Graphs
 
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=500&size=22&duration=3500&pause=900&color=F2EBE1&center=true&vCenter=true&width=720&lines=I+pick+the+data+model+first;If+the+student+needs+a+check,+I+use+a+tool;Agents+that+call+tools" alt="typing" />
-
-[![Tutor](https://img.shields.io/badge/AI_Tutor-LangChain_+_MCP-0c0b0a?style=for-the-badge&labelColor=c4a574)](https://github.com/rohit-dev45/programming-tutor-agent)
-[![Demo](https://img.shields.io/badge/Demo-Google_Drive-0c0b0a?style=for-the-badge&labelColor=c4a574)](https://drive.google.com/file/d/1X8HZTsvx9oTEdc2P6xVx4szGgzhltDgM/view?usp=sharing)
-[![Live](https://img.shields.io/badge/Parampara-Live_demo-0c0b0a?style=for-the-badge&labelColor=c4a574)](https://parampara-ashy.vercel.app/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Lovable-0c0b0a?style=for-the-badge&labelColor=9c9388)](https://rohityadavportfolio.lovable.app/)
-[![Mail](https://img.shields.io/badge/Email-rohit.botta5%40gmail.com-0c0b0a?style=for-the-badge&labelColor=6f675e)](mailto:rohit.botta5@gmail.com)
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=500&size=20&duration=3500&pause=900&color=E8E6DF&center=true&vCenter=true&width=720&lines=I+pick+the+data+model+first;If+the+student+needs+a+check,+I+call+a+tool;Agents+that+look+things+up" alt="typing" />
 
 </div>
 
 ---
 
-## About
+## 👤 About Me
 
-I pick the data model first. If the world is rows, I use rows. If the world is a lineage, I use a graph. If the student needs a check, I call a tool.
+```js
+const rohit = {
+  role: "Backend / GenAI engineer",
+  location: "Visakhapatnam, India · open to remote",
+  education: "B.Tech CSE (IoT) · Raghu Engineering College",
 
-I build backends and agents in **C# / .NET**, **Python**, **TypeScript**, and **Java**. Lately that includes a LangChain + Gemini programming tutor that calls MCP tools instead of guessing a prime check, and a Neo4j graph of Indian classical music lineages.
+  building: [
+    "DevOpsDesk — multi-agent internal support",
+    "Programming tutor agent — LangChain + Gemini + MCP",
+    "Parampara — living graph of Indian classical music"
+  ],
 
----
+  rule: "If the world is rows, use rows. If it is a lineage, use a graph. If it needs a check, call a tool.",
 
-## Projects
+  tech: {
+    languages: ["Python", "C#", "TypeScript", "Java", "SQL"],
+    ai: ["LangChain", "LangGraph", "MCP", "Gemini", "RAG"],
+    backend: [".NET 8", "ASP.NET Core", "EF Core", "JWT", "Spring Boot"],
+    data: ["SQL Server", "PostgreSQL", "Neo4j", "Supabase"]
+  }
+};
+```
 
-### 1. Programming tutor agent — LangChain, Gemini, MCP
-**Now.** A Python programming tutor. Concepts get an explanation. Checks (prime, palindrome, leap year, Fibonacci, GCD) go through MCP tools, then the agent explains the result in plain language.
-
-13 tools on a FastMCP server. Same tools work in the CLI agent, MCP Inspector, and Codex.
-
-`Python` `LangChain` `Gemini` `MCP` `LangGraph`
-
-[Source](https://github.com/rohit-dev45/programming-tutor-agent) · [Watch demo](https://drive.google.com/file/d/1X8HZTsvx9oTEdc2P6xVx4szGgzhltDgM/view?usp=sharing)
-
-[![MCP Inspector](https://github.com/rohit-dev45/programming-tutor-agent/raw/main/docs/programming-tutor-agent/docs/screenshots/02-mcp-inspector-tools.png)](https://drive.google.com/file/d/1X8HZTsvx9oTEdc2P6xVx4szGgzhltDgM/view?usp=sharing)
-
-| Inspector | Codex tools | Leap year |
-| :---: | :---: | :---: |
-| [![Inspector](https://github.com/rohit-dev45/programming-tutor-agent/raw/main/docs/programming-tutor-agent/docs/screenshots/03-check-prime.png)](https://github.com/rohit-dev45/programming-tutor-agent) | [![Codex](https://github.com/rohit-dev45/programming-tutor-agent/raw/main/docs/programming-tutor-agent/docs/screenshots/05-codex-list-tools.png)](https://github.com/rohit-dev45/programming-tutor-agent) | [![Leap](https://github.com/rohit-dev45/programming-tutor-agent/raw/main/docs/programming-tutor-agent/docs/screenshots/06-leap-year.png)](https://github.com/rohit-dev45/programming-tutor-agent)
-
----
-
-### 2. Parampara — living graph of Indian classical music
-Guru, shishya, gharana, raga as a graph — because teaching is an edge, not a column.
-
-`TypeScript` `Neo4j` `Cypher` `SVG`
-
-[Live demo](https://parampara-ashy.vercel.app/) · [Source](https://github.com/rohit-dev45/parampara)
-
-[![Parampara](https://parampara-ashy.vercel.app/screenshots/01-explore.jpg)](https://parampara-ashy.vercel.app/)
+> Agents should look things up. They should not invent an incident id, a prime check, or a teaching lineage.
 
 ---
 
-### 3. Banking system
-`Java` `Spring Boot` `Hibernate` `MySQL`
+## 🔗 Connect With Me
 
-[github.com/rohit-dev45/banking-system](https://github.com/rohit-dev45/banking-system)
-
-### 4. Leadmasters exam portal
-[github.com/rohit-dev45/leadmasters-exam-portal](https://github.com/rohit-dev45/leadmasters-exam-portal)
-
-### 5. Employee management — frontend
-[github.com/rohit-dev45/Employee-management-system-only-front-end](https://github.com/rohit-dev45/Employee-management-system-only-front-end)
-
-### 6. Library management
-[github.com/rohit-dev45/library-management](https://github.com/rohit-dev45/library-management)
-
-### 7. Amazon clone
-[github.com/rohit-dev45/amazon](https://github.com/rohit-dev45/amazon)
-
-### 8. Traffic sign detection
-[github.com/rohit-dev45/traffic--sign-detection](https://github.com/rohit-dev45/traffic--sign-detection)
+<p align="center">
+  <a href="https://www.linkedin.com/in/botta-rohit-yadav/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:rohit.botta5@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://rohityadavportfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://leetcode.com/rohit-yadav"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="https://github.com/rohit-dev45"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
 ---
 
-## Tech stack
+## 🚀 Now building
 
-**Languages** `C#` `Python` `TypeScript` `Java` `SQL`
+### DevOpsDesk
+Multi-agent internal DevOps support. Triage routes to **Incidents**, **CI/CD**, or **Access**. Tools read a fake CMDB. Writes (rollback, grant admin) are refused. Guardrail blocks off-topic and injection.
 
-**AI / agents** `LangChain` `LangGraph` `MCP` `Gemini` `RAG`
+[github.com/rohit-dev45/devops-desk](https://github.com/rohit-dev45/devops-desk)
 
-**Backend** `.NET 8` `ASP.NET Core` `EF Core` `JWT` `Spring Boot`
+### Programming tutor agent
+LangChain + Gemini + MCP. Concepts get an explanation. Checks go through tools, then the agent explains the result. Same tools work in the CLI, MCP Inspector, and Codex.
 
-**Data** `SQL Server` `PostgreSQL` `MySQL` `Neo4j` `Supabase`
+[github.com/rohit-dev45/programming-tutor-agent](https://github.com/rohit-dev45/programming-tutor-agent) · [Watch demo](https://drive.google.com/file/d/1X8HZTsvx9oTEdc2P6xVx4szGgzhltDgM/view?usp=sharing)
 
-**Cloud** `AWS` `Docker` `Git` `Linux`
+### Parampara
+Live graph of guru · shishya · gharana · raga. TypeScript + Neo4j / openCypher. Multi-hop teaching chains and shortest path.
+
+[parampara-ashy.vercel.app](https://parampara-ashy.vercel.app/) · [source](https://github.com/rohit-dev45/parampara)
+
+---
+
+## ⚙️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,cs,dotnet,ts,java,js,react,spring,postgres,mysql,aws,docker,git,linux,vscode&perline=8" alt="stack" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-2B2B2B?style=flat-square" />
+  <img src="https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white" />
+  <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square" />
+</p>
+
+---
+
+## 📊 GitHub Analytics
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=cs,dotnet,py,ts,java,js,react,spring,postgres,mysql,aws,docker,git,linux,vscode&perline=8" alt="stack" />
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=rohit-dev45&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohit-dev45&layout=compact&theme=tokyonight&hide_border=true" alt="languages" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rohit-dev45&theme=tokyonight&hide_border=true" alt="streak" />
+
 </div>
 
 ---
 
-## Contact
+## 🏆 GitHub Trophies
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=rohit-dev45&theme=tokyonight&no-frame=true&column=7&margin-w=15" alt="trophies" />
+</div>
+
+---
 
 <div align="center">
 
-**[programming-tutor-agent](https://github.com/rohit-dev45/programming-tutor-agent)** · **[watch demo](https://drive.google.com/file/d/1X8HZTsvx9oTEdc2P6xVx4szGgzhltDgM/view?usp=sharing)** · **[parampara](https://parampara-ashy.vercel.app/)** · **[portfolio](https://rohityadavportfolio.lovable.app/)** · **[email](mailto:rohit.botta5@gmail.com)**
+[DevOpsDesk](https://github.com/rohit-dev45/devops-desk) · [Tutor agent](https://github.com/rohit-dev45/programming-tutor-agent) · [Parampara](https://parampara-ashy.vercel.app/) · [Portfolio](https://rohityadavportfolio.lovable.app/) · [Email](mailto:rohit.botta5@gmail.com)
 
 </div>
