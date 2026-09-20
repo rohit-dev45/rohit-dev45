@@ -94,12 +94,20 @@ Live graph of guru · shishya · gharana · raga. TypeScript + Neo4j / openCyphe
 ## 📊 GitHub Analytics
 
 <div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rohit-dev45&theme=tokyo-night&hide_border=true&area=true" alt="contribution graph" width="100%" />
+</div>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=rohit-dev45&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohit-dev45&layout=compact&theme=tokyonight&hide_border=true" alt="languages" />
+<br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rohit-dev45&theme=tokyonight&hide_border=true" alt="streak" />
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rohit-dev45&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohit-dev45&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="top languages" />
+</div>
 
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=rohit-dev45&theme=tokyonight&hide_border=true" alt="streak" />
 </div>
 
 ---
@@ -107,7 +115,7 @@ Live graph of guru · shishya · gharana · raga. TypeScript + Neo4j / openCyphe
 ## 🏆 GitHub Trophies
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=rohit-dev45&theme=tokyonight&no-frame=true&column=7&margin-w=15" alt="trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=rohit-dev45&theme=tokyonight&no-frame=true&column=7&margin-w=12&margin-h=12" alt="trophies" />
 </div>
 
 ---
