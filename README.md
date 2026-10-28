@@ -91,7 +91,34 @@ I'm a backend-focused developer working with C# and .NET, and a 2024 B.Tech CSE 
 
 ---
 
-### Architecture highlight: DevOpsDesk
+### Architecture highlights
+
+#### Career Copilot Agent (newest)
+
+<sub><a href="https://github.com/rohit-dev45/career-copilot-agent">career-copilot-agent</a>: Python · Pillow · pytest · human-in-the-loop, no scraping or auto-posting. <a href="https://github.com/rohit-dev45/career-copilot-agent/blob/main/docs/assets/workflow.svg">Full workflow image</a></sub>
+
+```mermaid
+flowchart LR
+    subgraph J[Jobs]
+      J1["jobs.py<br/>score 0-100 + skill gaps"] --> J2{"verify.py<br/>listing live?"}
+      J2 -- yes --> J3[("tracker.py<br/>job CSV")]
+      J3 --> JH(["👤 I apply"])
+    end
+    subgraph P[Posts]
+      P1{"content.py<br/>fact-check gate"} -- passes --> P2["slides.py<br/>PNG + PDF carousel"]
+      P2 --> PH(["👤 I approve"])
+      PH --> P3["scheduler.py<br/>scheduling API"]
+    end
+    subgraph N[Networking]
+      N1["Note drafts<br/>(≤200 chars)"] --> NH(["👤 I send"])
+      NH --> N2[("tracker.py<br/>networking CSV")]
+    end
+    classDef human fill:#fde68a,stroke:#b45309,color:#000;
+    class JH,PH,NH human;
+```
+<sub>👤 Yellow steps are done by me, never automated.</sub>
+
+#### DevOpsDesk
 
 <sub>How a request moves through <a href="https://github.com/rohit-dev45/devops-desk">devops-desk</a> (OpenAI Agents SDK, model served via NVIDIA NIM). Every tool is a read-only lookup over sample data.</sub>
 
