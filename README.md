@@ -91,6 +91,43 @@ I'm a backend-focused developer working with C# and .NET, and a 2024 B.Tech CSE 
 
 ---
 
+### Architecture highlight: DevOpsDesk
+
+<sub>How a request moves through <a href="https://github.com/rohit-dev45/devops-desk">devops-desk</a> (OpenAI Agents SDK, model served via NVIDIA NIM). Every tool is a read-only lookup over sample data.</sub>
+
+```mermaid
+flowchart LR
+    U([User question]) --> G{"Input guardrail<br/>devops_only<br/>(keyword tripwire, no LLM call)"}
+    G -- off-topic / blocked --> X([Request stopped])
+    G -- DevOps topic --> T["DevOps Triage agent<br/>(routes, asks 1 clarifying question)"]
+    T -- handoff --> I["Incidents agent"]
+    T -- handoff --> C["CICD agent"]
+    T -- handoff --> A["Access agent"]
+    I --> TI[["get_service_health · get_incident<br/>list_open_incidents · get_runbook"]]
+    C --> TC[["get_pipeline · get_last_deploy<br/>get_runbook"]]
+    A --> TA[["get_access_request<br/>(never grants access)"]]
+```
+
+---
+
+### What I'm learning
+
+- 🎓 **M.Tech in AI/ML** (in progress)
+- 📘 **GATE** preparation (in progress)
+- ☁️ Preparing for **AWS Certified AI Practitioner** (not yet taken)
+- 🧩 **DSA in Python**: recursion, dynamic programming, time and space complexity
+
+---
+
+### Latest posts on LinkedIn
+
+- [Build in public: testing DevOpsDesk's keyword guardrail](https://www.linkedin.com/feed/update/urn:li:ugcPost:7521035531984564224) (carousel, 28 Oct 2026)
+- [Kimi K3.1 Pro: cheaper per token isn't always cheaper per task](https://www.linkedin.com/feed/update/urn:li:ugcPost:7520680739055767552) (carousel, 27 Oct 2026)
+- [NVIDIA to acquire Hugging Face: what it means for developers](https://www.linkedin.com/feed/update/urn:li:ugcPost:7520847348911038464) (video)
+- [Skills advise, IAM enforces: Google's Data Agent Kit](https://www.linkedin.com/feed/update/urn:li:ugcPost:7520325846524514304) (carousel, 26 Oct 2026)
+
+---
+
 ### GitHub stats
 
 <div align="center">
@@ -100,8 +137,8 @@ I'm a backend-focused developer working with C# and .NET, and a 2024 B.Tech CSE 
 
 ---
 
-<div align="center">
+### Let's connect
 
-**Let's connect:** [LinkedIn](https://www.linkedin.com/in/botta-rohit-yadav/) · [Portfolio](https://rohityadavportfolio.lovable.app/) · [rohit.botta5@gmail.com](mailto:rohit.botta5@gmail.com)
+Open to **junior .NET backend** and **entry-level AI / agentic AI** roles, in India or remote.
 
-</div>
+[LinkedIn](https://www.linkedin.com/in/botta-rohit-yadav/) · [Portfolio](https://rohityadavportfolio.lovable.app/) · [rohit.botta5@gmail.com](mailto:rohit.botta5@gmail.com)
