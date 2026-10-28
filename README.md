@@ -89,14 +89,6 @@ I'm a backend-focused developer working with C# and .NET, and a 2024 B.Tech CSE 
 
 </div>
 
---- | --- | --- |
-| 🧭 [**career-copilot-agent**](https://github.com/rohit-dev45/career-copilot-agent) | Human-in-the-loop Python pipeline for job-fit scoring, CSV tracking and fact-checked LinkedIn carousel generation. No LinkedIn automation. | Python · Pillow · pytest |
-| 🛎️ [**DevOpsDesk**](https://github.com/rohit-dev45/devops-desk) | Multi-agent DevOps support desk: a triage agent hands off to Incidents, CI/CD and Access specialists that call function tools on a mock CMDB, with an input guardrail and write actions refused. | Python · OpenAI Agents SDK |
-| 👨‍🏫 [**Programming Tutor Agent**](https://github.com/rohit-dev45/programming-tutor-agent) | LangChain agent on Gemini 2.5 Flash that calls a custom 13-tool FastMCP server through an MCP client, then explains each result. | Python · LangChain · FastMCP |
-| 🗂️ **Employee Management System** | ASP.NET Core Web API with EF Core and SQL Server, JWT auth and role-based access control. Front end: [repo](https://github.com/rohit-dev45/Employee-management-system-only-front-end). | C# · ASP.NET Core · EF Core · SQL Server |
-| 🎶 [**Parampara**](https://github.com/rohit-dev45/parampara) | Force-directed graph explorer of Indian classical music lineages, gharanas and ragas. [Live demo](https://parampara-ashy.vercel.app/) | TypeScript · React · Neo4j · Cypher |
-| 🏦 [**banking-system**](https://github.com/rohit-dev45/banking-system) | Backend Java banking project. | Java |
-
 ---
 
 ### GitHub stats
