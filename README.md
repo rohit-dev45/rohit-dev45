@@ -19,12 +19,12 @@
 
 ### About me
 
-I'm a backend-focused developer working with C# and .NET, and a 2024 B.Tech CSE (IoT) graduate from Visakhapatnam, India. I build REST APIs with ASP.NET Core and Entity Framework Core, and on the side I build small Python agents with the OpenAI Agents SDK, LangChain and MCP tool calling.
+I'm a backend-focused developer working with C# and .NET, and a 2024 B.Tech CSE (IoT) graduate from Visakhapatnam, India, now pursuing an M.Tech in AI/ML. I build REST APIs with ASP.NET Core and Entity Framework Core, and on the side I build small Python agents with the OpenAI Agents SDK, LangChain and MCP tool calling.
 
 ### Currently
 
 - 💼 Full Stack .NET Developer Intern at **RQB Technologies** (since Jan 2026)
-- 🎓 Pursuing an **M.Tech**
+- 🎓 **Pursuing M.Tech in AI/ML** (B.Tech CSE (IoT), 2024)
 - 🛠️ Building [career-copilot-agent](https://github.com/rohit-dev45/career-copilot-agent), a human-in-the-loop job-search and content pipeline
 - 🔭 Open to **junior .NET backend / full stack** and **entry-level LLM / agentic AI** roles in India or remote
 
@@ -73,8 +73,23 @@ I'm a backend-focused developer working with C# and .NET, and a 2024 B.Tech CSE 
 
 ### Featured projects
 
-| Project | What it is | Stack |
-| --- | --- | --- |
+<div align="center">
+
+<a href="https://github.com/rohit-dev45/career-copilot-agent"><img src="./assets/cards/career-copilot-agent.svg" width="49%" alt="career-copilot-agent" /></a>
+<a href="https://github.com/rohit-dev45/devops-desk"><img src="./assets/cards/devops-desk.svg" width="49%" alt="devops-desk" /></a>
+<br/>
+<a href="https://github.com/rohit-dev45/programming-tutor-agent"><img src="./assets/cards/programming-tutor-agent.svg" width="49%" alt="programming-tutor-agent" /></a>
+<a href="https://github.com/rohit-dev45/parampara"><img src="./assets/cards/parampara.svg" width="49%" alt="parampara" /></a>
+<br/>
+<a href="https://github.com/rohit-dev45/Employee-management-system-only-front-end"><img src="./assets/cards/employee-management-system.svg" width="49%" alt="employee-management-system" /></a>
+<a href="https://github.com/rohit-dev45/banking-system"><img src="./assets/cards/banking-system.svg" width="49%" alt="banking-system" /></a>
+<br/>
+
+<sub>Employee Management System links to the front-end repo; the ASP.NET Core backend isn't public yet. Parampara live demo: <a href="https://parampara-ashy.vercel.app/">parampara-ashy.vercel.app</a></sub>
+
+</div>
+
+--- | --- | --- |
 | 🧭 [**career-copilot-agent**](https://github.com/rohit-dev45/career-copilot-agent) | Human-in-the-loop Python pipeline for job-fit scoring, CSV tracking and fact-checked LinkedIn carousel generation. No LinkedIn automation. | Python · Pillow · pytest |
 | 🛎️ [**DevOpsDesk**](https://github.com/rohit-dev45/devops-desk) | Multi-agent DevOps support desk: a triage agent hands off to Incidents, CI/CD and Access specialists that call function tools on a mock CMDB, with an input guardrail and write actions refused. | Python · OpenAI Agents SDK |
 | 👨‍🏫 [**Programming Tutor Agent**](https://github.com/rohit-dev45/programming-tutor-agent) | LangChain agent on Gemini 2.5 Flash that calls a custom 13-tool FastMCP server through an MCP client, then explains each result. | Python · LangChain · FastMCP |
