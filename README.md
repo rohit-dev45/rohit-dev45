@@ -98,45 +98,27 @@ I'm a backend-focused developer working with C# and .NET, and a 2024 B.Tech CSE 
 <sub><a href="https://github.com/rohit-dev45/career-copilot-agent">career-copilot-agent</a>: Python · Pillow · pytest · human-in-the-loop, no scraping or auto-posting. <a href="https://github.com/rohit-dev45/career-copilot-agent/blob/main/docs/assets/workflow.svg">Full workflow image</a></sub>
 
 ```mermaid
-flowchart TB
-    subgraph J[Jobs]
-      direction LR
-      J1["jobs.py<br/>score 0-100 + skill gaps"] --> J2{"verify.py<br/>listing live?"}
-      J2 -- yes --> J3[("tracker.py<br/>job CSV")]
-      J3 --> JH(["👤 I apply"])
-    end
-    subgraph P[Posts]
-      direction LR
-      P1{"content.py<br/>fact-check gate"} -- passes --> P2["slides.py<br/>PNG + PDF carousel"]
-      P2 --> PH(["👤 I approve"])
-      PH --> P3["scheduler.py<br/>scheduling API"]
-    end
-    subgraph N[Networking]
-      direction LR
-      N1["Note drafts<br/>(≤200 chars)"] --> NH(["👤 I send"])
-      NH --> N2[("tracker.py<br/>networking CSV")]
-    end
-    J ~~~ P ~~~ N
+%%{init: {'themeVariables': {'fontSize':'11px'}, 'flowchart': {'nodeSpacing':15,'rankSpacing':20,'padding':4}}}%%
+flowchart LR
+    J1[Score job] --> J2{Live?} -- yes --> J3[(Job CSV)] --> JH([👤 Apply])
+    P1{Fact-check} -- pass --> P2[Carousel] --> PH([👤 Approve]) --> P3[Schedule]
+    N1[Draft note] --> NH([👤 Send]) --> N2[(Net CSV)]
     classDef human fill:#fde68a,stroke:#b45309,color:#000;
     class JH,PH,NH human;
 ```
-<sub>👤 Yellow steps are done by me, never automated.</sub>
+<sub>Rows: jobs · posts · networking. 👤 Yellow = done by me, never automated.</sub>
 
 #### DevOpsDesk
 
-<sub>How a request moves through <a href="https://github.com/rohit-dev45/devops-desk">devops-desk</a> (OpenAI Agents SDK, model served via NVIDIA NIM). Every tool is a read-only lookup over sample data.</sub>
+<sub><a href="https://github.com/rohit-dev45/devops-desk">devops-desk</a> (OpenAI Agents SDK, NVIDIA NIM). Read-only tools over sample data.</sub>
 
 ```mermaid
+%%{init: {'themeVariables': {'fontSize':'11px'}, 'flowchart': {'nodeSpacing':15,'rankSpacing':20,'padding':4}}}%%
 flowchart LR
-    U([User question]) --> G{"Input guardrail<br/>devops_only<br/>(keyword tripwire, no LLM call)"}
-    G -- off-topic / blocked --> X([Request stopped])
-    G -- DevOps topic --> T["DevOps Triage agent<br/>(routes, asks 1 clarifying question)"]
-    T -- handoff --> I["Incidents agent"]
-    T -- handoff --> C["CICD agent"]
-    T -- handoff --> A["Access agent"]
-    I --> TI[["get_service_health · get_incident<br/>list_open_incidents · get_runbook"]]
-    C --> TC[["get_pipeline · get_last_deploy<br/>get_runbook"]]
-    A --> TA[["get_access_request<br/>(never grants access)"]]
+    U([Question]) --> G{Guardrail}
+    G -- off-topic --> X([Stop])
+    G -- DevOps --> T[Triage]
+    T --> I[Incidents] & C[CI/CD] & A["Access<br/>(no grants)"]
 ```
 
 ---
