@@ -91,6 +91,22 @@ I'm a backend-focused developer working with C# and .NET, and a 2024 B.Tech CSE 
 
 ---
 
+### Java & React projects
+
+[**Explore the project showcase →**](https://rohit-project-showcase.vercel.app/)
+
+| Project | Implementation | Features | Explore |
+| --- | --- | --- | --- |
+| **Banking System** | Java · Spring Boot · Hibernate · MySQL · JWT | Account APIs, ownership checks, deposits and withdrawals, transactional transfers, and paginated transaction history. | [Source](https://github.com/rohit-dev45/banking-system) · [Live showcase](https://rohit-full-stack-projects-e2cbb008.base44.app/banking) |
+| **Amazon Clone** | React · JavaScript · HTML5 · CSS3 | Product listings, search, category filters, price sorting, persistent browser cart, and simulated checkout. | [Source](https://github.com/rohit-dev45/amazon-clone) · [Live UI](https://rohit-project-showcase.vercel.app/amazon/) |
+| **Library Management System** | Java · Spring Boot · Hibernate · PostgreSQL | Authenticated catalog and lending APIs, librarian access, borrowing and returns, and stock validation. | [Source](https://github.com/rohit-dev45/library-management) · [Live showcase](https://rohit-full-stack-projects-e2cbb008.base44.app/library) |
+
+**About the live versions:** The banking and library links open a separate educational implementation using Base44 authentication, storage, and TanStack server functions. The Java/Spring Boot backends are available in the repositories; they are not the backend running those hosted demos. The Base44 version uses simulated money and does not guarantee atomic multi-record operations. Amazon is frontend-only and collects no payments.
+
+[Base44 backend source excerpts and schemas](https://github.com/rohit-dev45/banking-system/tree/main/base44-backend)
+
+---
+
 ### Architecture highlights
 
 #### Career Copilot Agent (newest)
